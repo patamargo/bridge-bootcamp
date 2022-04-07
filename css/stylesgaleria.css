@@ -1,0 +1,163 @@
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    }
+
+  .body > * {
+    width: 100%;
+    border: 1px solid #000;
+    border-bottom-width: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }  
+
+  .body > :last-child {
+    border-bottom-width: 1px;
+  }
+
+
+  #Encabezado{
+    border-bottom-width: 1px;
+    
+  }
+
+  
+  
+
+  .aside{
+    float:right;
+    background-color: black;
+    color: rgb(113, 18, 18);
+    overflow: hidden;
+    margin-left: 50%;
+    padding: 15%;
+  }
+  
+  .aside.imagen { 
+        float:left;
+        width: 28%;
+        height: 28%;
+        
+
+  }
+
+    .aside>p{
+    width: 350px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+
+  .aside>h1 {
+      border: 3px solid black;
+      text-align: center;
+  }
+
+
+  .section1{
+        margin-left: 170px;
+        border: 1px solid blue;
+        
+    }
+
+    
+
+  li{ display: inline;
+      text-align: center;}
+
+  ul{
+  list-style-type: none;
+  
+}
+
+  .nav-bar a{color:inherit;
+font-size:14px;
+}
+
+.nav-bar li{background-color:#fff;
+          display: inline;
+}
+
+.nav-bar{ 
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  display: block;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+  .nav-bar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    #Principal{ display: flex;
+                justify-content: center;
+
+  }
+
+    .section1{
+          flex-direction: column;
+          flex-wrap: wrap;
+
+  }
+
+        .section2{
+          flex-direction: column;
+          flex-wrap: wrap;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ 
+      height: 90px; 
+      width: 100%;
+      background-color:rgb(198, 224, 183) ;
+ 
+ }
+ .footer img {
+     height: 30px;
+     width: 30px;
+     padding: 10px;
+ 
+ } 
+
+/* galeria*/
+
+
+*{ margin: 0;
+  padding:0;
+  background-color: azure;
+  
+
+}
+  .galeria{
+    
+    
+    direction: initial ;
+    background-color: rgb(9, 75, 75);
+    
+
+  }
+  .galeria li a {
+    height:30px;
+    width:20px;
+    float:left;
+    border-bottom:2px solid #fff;
+    overflow: hidden;
+    }
+    .galeria li a img {
+      border:0;
+      
+      }
+    .galeria li a:hover {
+      height:120px;
+      }
+  
+
+

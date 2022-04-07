@@ -1,0 +1,192 @@
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    }
+
+  .body > * {
+    width: 100%;
+    border: 1px solid rgb(167, 72, 72);
+    border-bottom-width: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }  
+
+  .body > :last-child {
+    border-bottom-width: 1px;
+  }
+
+
+  #Encabezado{
+    border-bottom-width: 1px;
+  }
+
+
+  
+
+  .aside{
+    float:right;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    margin-left: 70%;
+    padding: 1%;
+  }
+  
+  .aside>.imagen { 
+      float:left;
+      width: 100%;
+      height: 100%;
+      object-position: 150px 0;
+
+  }
+
+    .aside>p{
+    width: 350px;
+    border: 1px solid black;
+    text-align: justify;
+  }
+
+
+    .aside>h1 {
+      border: 3px solid black;
+      text-align: justify;
+  }
+
+
+  .section1{
+        margin-left: 170px;
+        border: 1px solid blue;
+        
+    }
+
+  li{ 
+      display: inline;
+      text-align: center;
+  }
+
+ul{
+  list-style-type: none;
+  
+  }
+
+ .nav-bar a{
+  color:inherit;
+font-size:14px;
+  }
+
+.nav-bar li{
+  background-color:#fff;
+  display: inline;
+  }
+
+.nav-bar{ 
+  list-style-type: none;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+flex-wrap: nowrap;
+  }
+
+    .nav-bar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    #Principal{ 
+    display: flex;
+    justify-content: center;
+
+
+        }
+
+        .section1{
+          flex-direction: column;
+          flex-wrap: wrap;
+
+        }
+
+        .section2{
+          flex-direction: column;
+          flex-wrap: wrap;
+        }
+
+
+  #footer{
+          z-index:1;
+          background-color: rgb(136, 146, 147);
+          background: url(../img/email.PNG);
+          background: url(../img/instagram.PNG);
+          background: url(../img/twitter.PNG);
+          background: url(../img/facebook.png);
+  }
+        
+  
+        
+  img{
+          float: left;
+        }
+
+  .footer>a {
+        float: left;
+        width: 25%;
+      }
+
+
+
+/*tablas*/
+
+#main{
+  width: 780px;
+    padding: 20px;
+    margin: auto;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+
+.biography{
+  border: #b2b2b2 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .caption{
+    caption-side: top;
+  }
+
+  #margintable.biography{ 
+      border: 1px solid #000;
+      width:100%;
+      border-collapse: separate;
+      border-spacing: 15px;
+      border-style: solid;
+      margin: auto;
+
+    }
+
+table.biography caption{	background-color: #f79646;
+    color: rgb(82, 28, 28);
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: .3em;
+}
+
+/*Modificación estilos cabeceras*/
+th{
+  background: #000;
+  color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    padding:10px;
+
+}
+/*Modificacion celdas*/
+td{
+  text-align: center;
+  border-bottom:2px solid #111;
+  color:#333;
+  
+}
+
