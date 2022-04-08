@@ -18,6 +18,7 @@
 
 
   #Encabezado{
+    
     border-bottom-width: 1px;
   }
 
@@ -25,21 +26,20 @@
   
 
   .aside{
-    float:right;
-    background-color: black;
+    
+    background-color: rgb(82, 121, 88);
     color: white;
     overflow: hidden;
-    margin-left: 70%;
+    
     padding: 1%;
+    border:#ddd;
   }
   
   .aside>.imagen { 
       float:left;
       width: 100%;
       height: 100%;
-      object-position: 150px 0;
-
-  }
+      }
 
     .aside>p{
     width: 350px;
@@ -54,85 +54,50 @@
   }
 
 
-  .section1{
-        margin-left: 170px;
-        border: 1px solid blue;
-        
-    }
+  
 
   li{ 
-      display: inline;
-      text-align: center;
+      float: left;
+    
   }
 
-ul{
+  ul{
   list-style-type: none;
+  display: inline;
+  
   
   }
-
- .nav-bar a{
+      a{
   color:inherit;
-font-size:14px;
+  font-size:14px;
+  display: block;
+  padding: 8px ;
   }
-
-.nav-bar li{
-  background-color:#fff;
-  display: inline;
-  }
-
-.nav-bar{ 
-  list-style-type: none;
-display: flex;
-justify-content: space-around;
-flex-direction: row;
-flex-wrap: nowrap;
-  }
-
-    .nav-bar a:hover {
+  
+  .nav-bar> a:hover {
       background-color: #ddd;
       color: black;
     }
 
-    #Principal{ 
-    display: flex;
-    justify-content: center;
 
-
-        }
-
-        .section1{
-          flex-direction: column;
-          flex-wrap: wrap;
-
-        }
-
-        .section2{
-          flex-direction: column;
-          flex-wrap: wrap;
-        }
-
-
-  #footer{
-          z-index:1;
-          background-color: rgb(136, 146, 147);
-          background: url(../img/email.PNG);
-          background: url(../img/instagram.PNG);
-          background: url(../img/twitter.PNG);
-          background: url(../img/facebook.png);
-  }
-        
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 90px; 
+      width: 100%;
+      background-color:rgb(198, 224, 183) ;
+    }
   
-        
-  img{
-          float: left;
-        }
-
-  .footer>a {
-        float: left;
-        width: 25%;
-      }
-
-
+  
+    .footer img {
+        height: 30px;
+        width: 30px;
+        padding: 10px;
+  
+  } 
+  
 
 /*tablas*/
 
